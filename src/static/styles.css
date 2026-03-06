@@ -70,6 +70,36 @@ section h3 {
   color: #0066cc;
 }
 
+/* participants list styling */
+.participants-list {
+  margin: 10px 0 0 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.participants-list li {
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+}
+
+/* delete icon next to participant */
+.delete-participant {
+  margin-left: 8px;
+  color: #c62828;
+  cursor: pointer;
+  font-weight: bold;
+  user-select: none;
+}
+.delete-participant:hover {
+  color: #a50e0e;
+}
+
+.activity-card p.info {
+  font-style: italic;
+  color: #555;
+}
+
 .activity-card p {
   margin-bottom: 8px;
 }
